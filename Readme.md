@@ -1,1 +1,1 @@
-#A Novel Method for Handwritten Digit Recognition System 
+A Novel Method for Handwritten Digit Recognition System 
