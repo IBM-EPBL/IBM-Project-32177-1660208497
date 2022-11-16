@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Handwritten Digit Recognition</title>
+
+    <meta name="description" content="PR & Team built the Handwritten Digit Recognition using Artificial Intelligence which supported by Nalaiya Thiran Initiative">
+    <meta name="author" content="PR & Team">
+    <meta name="keywords" content="Digit Recognition using Artificial Intelligence">
+
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Varela" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
+    <link rel="icon" sizes="16x16" href="assets/img/favicon.ico">
+    <link rel="manifest" href="static/img/manifest.json">
+    <link rel="mask-icon" href="static/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+  <body style='align-self: center;'>
+    <h1>Upload and Predict</h1>
+    <form method="POST" enctype="multipart/form-data" action="/predict" method="POST">
+        <input type="file" id="myFile" name="img" accept=".png">
+        <input type="submit" value="Predict">
+    </form>
+  </body>
+</html>
